@@ -32,19 +32,19 @@
 				<configuration>
 				<cloudHubDeployment>
       <uri>https://anypoint.mulesoft.com</uri>
-      <muleVersion>${app.runtime}</muleVersion>
-      <username>${username}</username>
-      <password>${password}</password>
-      <applicationName>${cloudhub.application.name}</applicationName>
-      <environment>${environment}</environment>
-      <region>${region}</region>
-      <workers>${workers}</workers>
-      <workerType>${workerType}</workerType>
+      <muleVersion>4.4.0</muleVersion>
+      <username>kartiks0925</username>
+      <password>Kartik@11450</password>
+      <applicationName>world-demo-api</applicationName>
+      <environment>Sandbox</environment>
+      <region>us-east-1</region>
+      <workers>1</workers>
+      <workerType>MICRO</workerType>
       <properties>
-        <key>value</key>
+        <env>dev</env>
       </properties>
+      <objectStoreV2>true</objectStoreV2>
     </cloudHubDeployment>
-    <classifier>mule-application</classifier>
     </configuration>
 			</plugin>
 		</plugins>
